@@ -9,7 +9,7 @@ const roles = require('../utils/roles.util');
  * @returns {Object} res
  */
 const verifyManagerAuth = (req, res, next) => {
-  console.log(req.headers.token);
+  console.log(req.headers.token,"dffd");
   if (req.headers.token) {
     try {
       const token = req.headers.token;
